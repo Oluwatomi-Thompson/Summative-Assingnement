@@ -1,4 +1,4 @@
-# 📚 Book Vault
+# Book Notes and  Vault
 
 **Book Vault** is a simple, accessible, and responsive microsite for organizing books and notes.  
 It was created with a focus on **semantic HTML**, **clean CSS**, **keyboard accessibility**, and **regex-based data validation**.
@@ -69,8 +69,8 @@ You can now test:
 ---
 
 ## Live Demo
-**GitHub Pages:** [https://your-username.github.io/BookVault/](https://your-username.github.io/BookVault/)  
-**Demo Video:** [https://youtu.be/your-demo-video-link](https://youtu.be/your-demo-video-link)
+**GitHub Pages:** [https://oluwatomi-thompson.github.io/Summative-Assingnement/]  
+**Demo Video:** [https://youtu.be/8upIS5jlGz8]
 
 ---
 

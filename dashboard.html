@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Vault | Dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header" role="banner">
+    <nav class="nav-bar" role="navigation" aria-label="Main Navigation">
+        <div class="logo">
+            <img src="images/logo.png" alt="Books and Notes Vault Logo">
+            <h3>Books and Notes Vault</h3>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html" class="active">Dashboard</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="dashboard" role="main">
+    <h1 id="dashboard-title">Dashboard</h1>
+    <p>Welcome back, here's your reading overview.</p>
+
+    <section class="stats" aria-labelledby="dashboard-title">
+        <div class="stat-card" tabindex="0" role="region" aria-label="Total books">
+            <div class="sc">
+                <h2>Total Books</h2>
+                <img src="images/logo.png" alt="Books icon">
+            </div>
+            <p id="total-books">0</p>
+        </div>
+
+        <div class="stat-card" tabindex="0" role="region" aria-label="Most recent book">
+            <div class="sc">
+                <h2>Most Recent Book</h2>
+                <img src="images/page.png" alt="Page icon">
+            </div>
+            <p id="recent-book">No books yet</p>
+        </div>
+
+        <div class="stat-card" tabindex="0" role="region" aria-label="Genres count">
+            <div class="sc">
+                <h2>Genres Count</h2>
+                <img src="images/reading-book (1).png" alt="Reading book icon">
+            </div>
+            <p id="genre-count">0</p>
+        </div>
+    </section>
+
+    <section class="graph" aria-labelledby="graph-title">
+        <h2 id="graph-title">Books Added Over Time</h2>
+        <canvas id="booksChart" role="img" aria-label="Graph showing books added over time"></canvas>
+    </section>
+</main>
+
+<footer class="footer" role="contentinfo">
+    <p>© 2025 BookVault | Designed by Thompson Oluwatomi</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/main.js"></script>
+<script src="js/dashboard.js"></script>
+<script>
+    // Keyboard navigation for stat cards
+    document.querySelectorAll(".stat-card").forEach(card => {
+        card.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+                card.click();
+            }
+        });
+    });
+</script>
+</body>
+</html>

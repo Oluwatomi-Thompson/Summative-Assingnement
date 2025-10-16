@@ -13,10 +13,10 @@
 </head>
 <body>
 
-<header class="header">
-    <nav class="nav-bar">
+<header class="header" role="banner">
+    <nav class="nav-bar" role="navigation" aria-label="Main Navigation">
         <div class="logo">
-            <img src="images/logo.png" alt="logo (a book)">
+            <img src="images/logo.png" alt="Books and Notes Vault Logo">
             <h3>Books and Notes Vault</h3>
         </div>
         <ul class="nav-links">
@@ -28,36 +28,45 @@
     </nav>
 </header>
 
-<main class="main">
-    <section class="intro">
-        <h1 class="header-intro">Your Personal</h1>
-        <h1 class="header-intro" id="header-intro2">Book and Notes Vault</h1>
-        <p class="main-p">A modern, minimal solution to organize, search, and manage all your books and notes in one beautiful place.</p>
-        <a href="" class="Get-Started">Get Started</a>
-    </section>
+<main class="main" id="main" role="main">
+    <div class="intro-container">
+        <div class="floating-shapes" aria-hidden="true">
+            <span class="shape shape1"></span>
+            <span class="shape shape2"></span>
+            <span class="shape shape3"></span>
+            <span class="shape shape4"></span>
+        </div>
 
-    <section class="more-info">
-        <h2 class="mi-text">Everything You Need</h2>
+        <section class="intro" aria-labelledby="header-intro2">
+            <h1 class="header-intro">Your Personal</h1>
+            <h1 class="header-intro" id="header-intro2">Book and Notes Vault</h1>
+            <p class="main-p">A modern, minimal solution to organize, search, and manage all your books and notes in one beautiful place.</p>
+            <a href="dashboard.html" class="Get-Started" role="button" aria-label="Get started to dashboard">Get Started</a>
+        </section>
+    </div>
+
+    <section class="more-info" aria-labelledby="mi-heading">
+        <h2 class="mi-text" id="mi-heading">Everything You Need</h2>
         <div class="card-section">
-            <div class="cards">
-                <img src="images/logo.png" alt="" class="image">
+            <div class="cards" tabindex="0" role="region" aria-label="Organize your library">
+                <img src="images/logo.png" alt="Books icon" class="image">
                 <h3>Organise Your Library</h3>
                 <p>Keep all your books and notes in one centralized, easy-to-access place.</p>
             </div>
-            <div class="cards">
-                <img src="images/search.png" alt="" class="image">
+            <div class="cards" tabindex="0" role="region" aria-label="Quick search for books">
+                <img src="images/search.png" alt="Search icon" class="image">
                 <h3>Quick Search</h3>
                 <p>Find any book instantly with powerful search and filtering options.</p>
             </div>
         </div>
         <div class="card-section">
-            <div class="cards">
-                <img src="images/trend.png" alt="" class="image">
+            <div class="cards" tabindex="0" role="region" aria-label="Track your reading progress">
+                <img src="images/trend.png" alt="Trend icon" class="image">
                 <h3>Track Progress</h3>
                 <p>Monitor your reading habits with insightful statistics and trends.</p>
             </div>
-            <div class="cards">
-                <img src="images/lock.png" alt="" class="image">
+            <div class="cards" tabindex="0" role="region" aria-label="Secure storage of data">
+                <img src="images/lock.png" alt="Lock icon" class="image">
                 <h3>Secure Storage</h3>
                 <p>Your data is stored locally and you can export it anytime.</p>
             </div>
@@ -65,11 +74,23 @@
     </section>
 </main>
 
-<footer class="footer">
+<footer class="footer" role="contentinfo">
     <h2>Contact Us</h2>
     <p>Have questions or feedback?</p>
     <p>Email: <a href="mailto:o.thompson@alusudent.com">o.thompson@alusutdent.com</a></p>
+    <p>© 2025 BookVault | Designed by Thompson Oluwatomi</p>
 </footer>
+
+<script src="js/main.js"></script>
+<script>
+    document.querySelectorAll(".cards").forEach(card => {
+        card.addEventListener("keydown", (e) => {
+            if(e.key === "Enter" || e.key === " ") {
+                card.click(); 
+            }
+        });
+    });
+</script>
 
 </body>
 </html>

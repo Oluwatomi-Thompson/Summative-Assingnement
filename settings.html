@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Vault | Settings</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header" role="banner">
+  <nav class="nav-bar" role="navigation" aria-label="Main navigation">
+    <div class="logo">
+      <img src="images/logo.png" alt="Book Vault logo">
+      <h3>Books and Notes Vault</h3>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="books.html">Books</a></li>
+      <li><a href="settings.html" class="active" aria-current="page">Settings</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="settings-page" role="main">
+  <section class="settings" role="region" aria-labelledby="settings-heading">
+    <h1 id="settings-heading">Settings</h1>
+    <p>Manage your account settings and preferences</p>
+  </section>
+
+  <section class="data" role="region" aria-labelledby="data-heading">
+    <h2 id="data-heading">Data Management</h2>
+    <p>Import or export your data</p>
+    <div class="data-buttons">
+      <button class="import-btn">Import Data</button>
+      <button class="export-btn">Export Data</button>
+      <button class="reset-btn">Reset Data</button>
+    </div>
+  </section>
+
+  <section class="data-management" role="region" aria-labelledby="about-data-heading">
+    <h2 id="about-data-heading">About Data Storage</h2>
+    <p>Your data is stored locally in your browser's storage. You can import, export, or reset your data at any time. This means:</p>
+    <ul>
+      <li>Your data is not stored on any server.</li>
+      <li>You are responsible for backing up your data.</li>
+      <li>Resetting data will erase all your books and notes.</li>
+      <li>Data is not synced across devices.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="footer" role="contentinfo">
+  <p>© 2025 BookVault | Designed by Thompson Oluwatomi</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/settings.js"></script>
+</body>
+</html>

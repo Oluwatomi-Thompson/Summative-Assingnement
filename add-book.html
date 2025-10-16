@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Vault | Add Book</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header" role="banner">
+  <nav class="nav-bar" role="navigation" aria-label="Main navigation">
+    <div class="logo">
+      <img src="images/logo.png" alt="Book Vault logo">
+      <h3>Books and Notes Vault</h3>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="books.html" class="active" aria-current="page">Books</a></li>
+      <li><a href="settings.html">Settings</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="add-book" role="main">
+  <a href="books.html" class="back-btn" role="link">← Back to Books</a>
+
+  <section class="form" role="region" aria-labelledby="add-book-heading">
+    <h2 id="add-book-heading">Add New Book</h2>
+
+    <form action="" aria-label="Add new book form">
+      <label for="title">Book Title</label>
+      <input type="text" id="title" name="title" placeholder="Enter book title" required aria-required="true">
+
+      <label for="author">Author</label>
+      <input type="text" id="author" name="author" placeholder="Enter author name" required aria-required="true">
+
+      <label for="genre">Genre</label>
+      <input type="text" id="genre" name="genre" placeholder="Enter book genre" required aria-required="true">
+
+      <label for="date">Date Added</label>
+      <input type="date" id="date" name="date" required aria-required="true">
+
+      <div class="buttons">
+        <button type="submit" class="save-btn">Save</button>
+        <a href="books.html" class="cancel-btn" role="button">Cancel</a>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="footer" role="contentinfo">
+  <p>© 2025 BookVault | Designed by Thompson Oluwatomi</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/add-book.js"></script>
+</body>
+</html>

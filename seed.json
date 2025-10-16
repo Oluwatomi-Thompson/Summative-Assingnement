@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1760595245735,
+    "title": "Percy Jackson and the Lightning Thief",
+    "author": "Rick Riordan",
+    "genre": "Fantasy",
+    "addedDate": "2025-01-12"
+  },
+  {
+    "id": 1760595245736,
+    "title": "Harry Potter and the Sorcerer’s Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "addedDate": "2025-01-25"
+  },
+  {
+    "id": 1760595245738,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "addedDate": "2025-02-20"
+  },
+  {
+    "id": 1760595245739,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Adventure",
+    "addedDate": "2025-03-10"
+  },
+  {
+    "id": 1760595245740,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genre": "Programming",
+    "addedDate": "2025-03-24"
+  },
+  {
+    "id": 1760595245741,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt & David Thomas",
+    "genre": "Programming",
+    "addedDate": "2025-04-02"
+  },
+  {
+    "id": 1760595245742,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "genre": "Finance",
+    "addedDate": "2025-04-18"
+  },
+  {
+    "id": 1760595245743,
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "genre": "Self-Help",
+    "addedDate": "2025-05-01"
+  },
+  {
+    "id": 1760595245744,
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "genre": "Psychology",
+    "addedDate": "2025-05-16"
+  },
+  {
+    "id": 1760595245745,
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "genre": "Self-Help",
+    "addedDate": "2025-05-28"
+  },
+  {
+    "id": 1760595245746,
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "genre": "Philosophy",
+    "addedDate": "2025-06-10"
+  },
+  {
+    "id": 1760595245747,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Classic",
+    "addedDate": "2025-06-22"
+  },
+  {
+    "id": 1760595245748,
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "addedDate": "2025-07-05"
+  },
+  {
+    "id": 1760595245749,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "addedDate": "2025-07-19"
+  },
+  {
+    "id": 1760595245750,
+    "title": "Dune (Deluxe Illustrated Edition)",
+    "author": "Frank Herbert",
+    "genre": "Science Fiction",
+    "addedDate": "2025-08-04"
+  },
+  {
+    "id": 1760595245751,
+    "title": "Mistborn: The Final Empire",
+    "author": "Brandon Sanderson",
+    "genre": "Fantasy",
+    "addedDate": "2025-08-22"
+  },
+  {
+    "id": 1760595245752,
+    "title": "Cradle: Unsouled",
+    "author": "Will Wight",
+    "genre": "Fantasy",
+    "addedDate": "2025-09-03"
+  },
+  {
+    "id": 1760595245753,
+    "title": "Lord of the Mysteries — Volume 1: Clown Path",
+    "author": "Cuttlefish That Loves Diving",
+    "genre": "Mystery Fantasy",
+    "addedDate": "2025-09-20"
+  },
+  {
+    "id": 1760595245754,
+    "title": "Shadow Slave",
+    "author": "Guiltythree",
+    "genre": "Fantasy Action",
+    "addedDate": "2025-10-10"
+  },
+  {
+    "id": 1760595245755,
+    "title": "Zero to One: Notes on Startups, or How to Build the Future",
+    "author": "Peter Thiel & Blake Masters",
+    "genre": "Business",
+    "addedDate": "2025-10-15"
+  }
+]

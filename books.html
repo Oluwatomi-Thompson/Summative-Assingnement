@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Vault | Books</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header" role="banner">
+  <nav class="nav-bar" role="navigation" aria-label="Main navigation">
+    <div class="logo">
+      <img src="images/logo.png" alt="Book Vault logo">
+      <h3>Books and Notes Vault</h3>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="books.html" class="active" aria-current="page">Books</a></li>
+      <li><a href="settings.html">Settings</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="books" role="main">
+  <h1 id="books-heading">Books</h1>
+  <p>Manage all your books</p>
+
+  <div class="search-book">
+    <label for="searchInput" class="visually-hidden">Search books</label>
+    <input type="text" id="searchInput" placeholder="Search books..." aria-label="Search books">
+    <a href="add-book.html" id="searchBtn" class="btn" role="button">+ Add Book</a>
+  </div>
+  
+  <section id="books-list" class="books-list" aria-labelledby="books-heading">
+    <div class="book-card" tabindex="0" role="region" aria-label="Book: Book Title">
+      <h3>Book Title</h3>
+      <p><strong>Author:</strong> Author Name</p>
+      <p><strong>Genre:</strong> Genre Name</p>
+      <div class="book-actions">
+        <button type="button">Edit</button>
+        <button type="button">Save</button>
+        <button type="button">Delete</button>
+      </div>
+    </div>
+
+    <div class="book-card" tabindex="0" role="region" aria-label="Book: Book Title">
+      <h3>Book Title</h3>
+      <p><strong>Author:</strong> Author Name</p>
+      <p><strong>Genre:</strong> Genre Name</p>
+      <div class="book-actions">
+        <button type="button">Edit</button>
+        <button type="button">Save</button>
+        <button type="button">Delete</button>
+      </div>
+    </div>
+
+    <div class="book-card" tabindex="0" role="region" aria-label="Book: Book Title">
+      <h3>Book Title</h3>
+      <p><strong>Author:</strong> Author Name</p>
+      <p><strong>Genre:</strong> Genre Name</p>
+      <div class="book-actions">
+        <button type="button">Edit</button>
+        <button type="button">Save</button>
+        <button type="button">Delete</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" role="contentinfo">
+  <p>© 2025 BookVault | Designed by Thompson Oluwatomi</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/books.js"></script>
+</body>
+</html>
